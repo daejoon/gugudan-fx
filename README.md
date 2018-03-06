@@ -6,4 +6,5 @@ Gugudan-FX
 
 ## 참고사항
 
-[TornadoFx-sample](https://github.com/edvin/tornadofx-samples)
+* [TornadoFx-sample](https://github.com/edvin/tornadofx-samples)
+* [TornadoFx-guid](https://edvin.gitbooks.io/tornadofx-guide/content/)
