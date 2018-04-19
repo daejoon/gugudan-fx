@@ -9,9 +9,11 @@ import javafx.scene.layout.VBox
 import tornadofx.*
 
 class LevelView : View() {
-    override val root : VBox by fxml()
-    @FXML lateinit var lbTitle: Label
-    @FXML lateinit var btnPrev: Button
+    override val root: VBox by fxml()
+    @FXML
+    lateinit var lbTitle: Label
+    @FXML
+    lateinit var btnPrev: Button
     lateinit var oper: OPER
 
     init {

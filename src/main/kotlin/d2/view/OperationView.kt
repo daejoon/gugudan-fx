@@ -7,7 +7,7 @@ import javafx.scene.layout.VBox
 import tornadofx.*
 
 class OperationView : View() {
-    override val root : VBox by fxml()
+    override val root: VBox by fxml()
     private val levelView: LevelView by inject()
 
     init {

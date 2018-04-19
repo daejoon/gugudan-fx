@@ -4,7 +4,7 @@ import d2.view.MainView
 import javafx.stage.Stage
 import tornadofx.*
 
-class MyApp: App() {
+class MyApp : App() {
     override val primaryView = MainView::class
 
     override fun start(stage: Stage) {
