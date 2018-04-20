@@ -1,5 +1,9 @@
 buildscript {
-    ext.kotlin_version = '1.2.31'
+    ext {
+        kotlin_version = '1.2.40'
+        tornadofx_version = '1.7.15'
+    }
+
 
     repositories {
         mavenLocal()
@@ -27,7 +31,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-    compile 'no.tornado:tornadofx:1.7.14'
+    compile "no.tornado:tornadofx:$tornadofx_version"
     testCompile 'junit:junit:4.12'
 }
 
